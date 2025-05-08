@@ -15,11 +15,10 @@ export default function Nav() {
 
   const routes = [
     { path: '/', label: 'Home' },
-    { path: '/movies', label: 'Shop'  },
-    { path: '/originals', label: 'Favouriets' },
-    { path: '/search', label: 'New Items' },
-    { path: '/series', label: 'Cart'},
-    { path: '/watchlist', label: 'About' },
+    { path: '/shop', label: 'Shop'  },
+    { path: '/new', label: 'New Items' },
+    { path: '/cart', label: 'Cart'},
+    { path: '/about', label: 'About' },
   ];
 
   return (
